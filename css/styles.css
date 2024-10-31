@@ -930,6 +930,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--color-white);
   background-color: transparent;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 100%;
   min-height: 40px;
   flex-shrink: 0;
@@ -1253,7 +1254,9 @@ img {
 .modal__wrapper {
   margin-bottom: 8px;
 }
-
+.modal__label {
+  display: block;
+}
 .modal__label {
   color: var(--color-light-slate);
   font-size: 12px;
@@ -1328,6 +1331,10 @@ img {
 
 .modal__check-wrapper {
   margin-bottom: 24px;
+}
+
+.modal__check-input {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .modal__check-input:checked + .modal__check-text .modal__check-box {
